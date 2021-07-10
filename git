@@ -6,32 +6,10 @@ function gcm() {
   git commit -m "$message"
 }
 
-# checkout
-function gco() {
-  git checkout $1
-}
-
-# add all
-function gaa() {
-  git add .
-}
-
-# commit
-function gcm() {
-  git commit -m "$1"
-}
-
-# diff
-function gdi() {
-  git diff
-}
-
-# diff staged
-function gds() {
-  git diff --staged
-}
-
-# status
-function gst() {
-  git st
-}
+# aliases
+alias gco="git checkout"
+alias gaa="git add ."
+alias gcm="git commit -m"
+alias gdi="git diff"
+alias gds="git diff --staged"
+alias gst="git st"
