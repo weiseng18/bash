@@ -1,0 +1,9 @@
+# navigation aliases
+
+alias out='cd ..'
+
+alias uxplay='cd $DOCS/iOS/screenshare/uxplay/'
+alias github='cd $DOCS/Programming/github'
+alias notes='cd $DOCS/Uni/doubledegree'
+
+alias rp='cd $REPOS'

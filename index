@@ -1,0 +1,9 @@
+# this is the main file
+
+# constants
+export REPOS='/media/asus/Data/repos'
+export DOCS='/media/asus/Data/Documents'
+
+# load scripts
+source $REPOS/config/bash/git
+source $REPOS/config/bash/nav

@@ -1,0 +1,9 @@
+# custom git commit for faster commits
+function gcm() {
+  message="ma2001: $@"
+  git commit -m "$message"
+}
+
+function gco() {
+  git checkout $1
+}
