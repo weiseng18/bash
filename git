@@ -30,3 +30,8 @@ function gdi() {
 function gds() {
   git diff --staged
 }
+
+# status
+function gst() {
+  git st
+}
