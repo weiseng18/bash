@@ -1,9 +1,32 @@
 # custom git commit for faster commits
+# edit as necessary
 function gcm() {
+  # message is the prepend
   message="ma2001: $@"
   git commit -m "$message"
 }
 
+# checkout
 function gco() {
   git checkout $1
+}
+
+# add all
+function gaa() {
+  git add .
+}
+
+# commit
+function gcm() {
+  git commit -m "$1"
+}
+
+# diff
+function gdi() {
+  git diff
+}
+
+# diff staged
+function gds() {
+  git diff --staged
 }
