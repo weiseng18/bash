@@ -13,3 +13,6 @@ alias gcm="git commit -m"
 alias gdi="git diff"
 alias gds="git diff --staged"
 alias gst="git st"
+
+alias gpatch="git apply --reject --whitespace=fix"
+
