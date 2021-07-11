@@ -1,2 +1,2 @@
 alias cl="clear"
-alias rl="source ~/.bashrc"
+alias rl="source ~/.bashrc && clear"
