@@ -4,7 +4,8 @@ alias out='cd ..'
 
 alias uxplay='cd $DOCS/iOS/screenshare/uxplay/'
 alias github='cd $DOCS/Programming/github'
-alias notes='cd $DOCS/Uni/doubledegree'
+
+alias 2dd='cd $DOCS/Uni/doubledegree'
 
 alias 2rp='cd $REPOS'
 alias 2scr='cd $REPOS/config/scripts'
