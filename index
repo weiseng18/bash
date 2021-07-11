@@ -7,3 +7,4 @@ export DOCS='/media/asus/Data/Documents'
 # load scripts
 source $REPOS/config/bash/git
 source $REPOS/config/bash/nav
+source $REPOS/config/bash/misc
