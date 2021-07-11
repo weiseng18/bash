@@ -6,4 +6,7 @@ alias uxplay='cd $DOCS/iOS/screenshare/uxplay/'
 alias github='cd $DOCS/Programming/github'
 alias notes='cd $DOCS/Uni/doubledegree'
 
-alias rp='cd $REPOS'
+alias 2rp='cd $REPOS'
+alias 2scr='cd $REPOS/config/scripts'
+alias 2dwm='cd $REPOS/config/dwm'
+alias 2b='cd $REPOS/config/bash'
