@@ -3,6 +3,7 @@
 # constants
 export REPOS='/media/asus/Data/repos'
 export DOCS='/media/asus/Data/Documents'
+export SCRIPTS=$REPOS'/config/scripts'
 
 # load scripts
 source $REPOS/config/bash/git
