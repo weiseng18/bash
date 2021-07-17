@@ -2,3 +2,4 @@ alias cl="clear"
 alias rl="source ~/.bashrc && clear"
 
 alias v="vim"
+alias n="nvim"
