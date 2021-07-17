@@ -3,6 +3,8 @@
 # constants
 export REPOS='/media/asus/Data/repos'
 export DOCS='/media/asus/Data/Documents'
+export UNI=$DOCS'/Uni'
+
 export SCRIPTS=$REPOS'/config/scripts'
 
 # load scripts
