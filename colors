@@ -1,0 +1,37 @@
+# local color vars
+black=30
+red=31
+green=32
+yellow=33
+blue=34
+magenta=35
+cyan=36
+light_gray=37
+gray=90
+light_red=91
+light_green=92
+light_yellow=93
+light_blue=94
+light_magenta=95
+light_cyan=96
+white=97
+
+# actual colors
+export BLACK="\e[${black}m"
+export RED="\e[${red}m"
+export GREEN="\e[${green}m"
+export YELLOW="\e[${yellow}m"
+export BLUE="\e[${blue}m"
+export MAGENTA="\e[${magenta}m"
+export CYAN="\e[${cyan}m"
+export LIGHT_GRAY="\e[${light_gray}m"
+export GRAY="\e[${gray}m"
+export LIGHT_RED="\e[${light_red}m"
+export LIGHT_GREEN="\e[${light_green}m"
+export LIGHT_YELLOW="\e[${light_yellow}m"
+export LIGHT_BLUE="\e[${light_blue}m"
+export LIGHT_MAGENTA="\e[${light_magenta}m"
+export LIGHT_CYAN="\e[${light_cyan}m"
+export WHITE="\e[${white}m"
+
+export ENDCOLOR="\e[0m"
