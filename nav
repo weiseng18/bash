@@ -1,6 +1,18 @@
 # navigation aliases
 
-alias out='cd ..'
+function out {
+  local count=$1
+  # default to 1
+  if [ -z $count ]; then
+    count=1
+  fi
+  # for loop to generate
+  local output=""
+  for i in $(seq 1 ${count}); do
+    output=$output"../"
+  done
+  cd $output
+}
 
 alias uxplay='cd $DOCS/iOS/screenshare/uxplay/'
 alias github='cd $DOCS/Programming/github'
