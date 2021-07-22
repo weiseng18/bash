@@ -18,6 +18,9 @@ alias gp="git push"
 alias gpatch="git apply --reject --whitespace=fix"
 
 # aliases for multiple actions
-alias ga="git add . && git diff --staged"
+function ga() {
+  git add "$@"
+  git diff --staged
+}
 
 alias gck=". $SCRIPTS/helper/check-git"
