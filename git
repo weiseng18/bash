@@ -19,7 +19,11 @@ alias gpatch="git apply --reject --whitespace=fix"
 
 # aliases for multiple actions
 function ga() {
-  git add "$@"
+  if [ -z $@ ]; then
+    git add .
+  else
+    git add "$@"
+  fi
   git diff --staged
 }
 
