@@ -10,6 +10,7 @@ export DOCS='/media/asus/Data/Documents'
 export UNI=$DOCS'/Uni'
 
 export SCRIPTS=$REPOS'/config/scripts'
+export DOTFILES=$REPOS'/config/dotfiles'
 
 # load scripts
 source $REPOS/config/bash/colors
