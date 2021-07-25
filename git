@@ -7,7 +7,6 @@ function gcm() {
 }
 
 # aliases
-alias gco="git checkout"
 alias gaa="git add ."
 alias gcm="git commit -m"
 alias gdi="git diff"
@@ -25,6 +24,11 @@ function ga() {
     git add "$@"
   fi
   git diff --staged
+}
+
+function gco() {
+  git checkout "$@"
+  reload
 }
 
 alias gck=". $SCRIPTS/helper/check-git"
