@@ -1,5 +1,6 @@
 alias cl="clear"
 alias rl="source ~/.bashrc && clear"
+alias reload="source ~/.bashrc"
 
 alias v="vim"
 alias n="nvim"
