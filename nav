@@ -12,7 +12,10 @@ function out {
     output=$output"../"
   done
   cd $output
-  rl
+
+  # rl alias doesn't work for some reason
+  source ~/.bashrc
+  clear
 }
 
 alias uxplay='cd $DOCS/iOS/screenshare/uxplay/'
