@@ -15,4 +15,7 @@ function monitor() {
       echo "Nothing happened."
     ;;
   esac
+
+  # reload wallpaper
+  ~/.fehbg
 }
