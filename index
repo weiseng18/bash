@@ -1,8 +1,11 @@
 # this is the main file
 
 # remember ssh key for this session
-keychain id_rsa
-. ~/.keychain/`uname -n`-sh
+KEYCHAIN_OUTPUT=$(keychain -l)
+if [[ $KEYCHAIN_OUTPUT == 'The agent has no identities.' ]]; then
+  keychain id_rsa
+  . ~/.keychain/`uname -n`-sh
+fi
 
 # constants
 export REPOS='/media/asus/Data/repos'
