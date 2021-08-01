@@ -28,7 +28,7 @@ function ga() {
 
 function gco() {
   git checkout "$@"
-  rl
+  source ~/.bashrc
 }
 
 alias gck=". $SCRIPTS/helper/check-git"
