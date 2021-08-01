@@ -15,7 +15,6 @@ function out {
 
   # rl alias doesn't work for some reason
   source ~/.bashrc
-  clear
 }
 
 alias uxplay='cd $DOCS/iOS/screenshare/uxplay/'
