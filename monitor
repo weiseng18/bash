@@ -12,7 +12,7 @@ function monitor() {
     ;;
 
     "both")
-      xrandr --output HDMI1 --auto --output eDP1 --off
+      xrandr --output HDMI1 --primary --auto --output eDP1 --off
       xrandr --output eDP1 --auto --right-of HDMI1
       echo "Enable both monitors"
     ;;
