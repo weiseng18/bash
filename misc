@@ -13,3 +13,9 @@ function tab() {
   TITLE="\[\e]2;$*\a\]"
   PS1=${ORIG}${TITLE}
 }
+
+# MATLAB
+# patch to allow matlab GUI to work on Linux
+# source: https://www.mathworks.com/matlabcentral/answers/100622-why-does-matlab-start-with-a-blank-grey-window-when-using-a-compiz-or-beryl-window-manager
+
+export _JAVA_AWT_WM_NONREPARENTING=1
