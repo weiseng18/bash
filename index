@@ -10,7 +10,6 @@ fi
 # constants
 export REPOS='/media/asus/Data/repos'
 export DOCS='/media/asus/Data/Documents'
-export UNI=$DOCS'/Uni'
 
 export BASH_CONFIG=$REPOS'/config/bash'
 export SCRIPTS=$REPOS'/config/scripts'
@@ -22,3 +21,4 @@ source $BASH_CONFIG/git
 source $BASH_CONFIG/nav
 source $BASH_CONFIG/misc
 source $BASH_CONFIG/monitor
+source $BASH_CONFIG/uni

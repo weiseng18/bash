@@ -1,0 +1,6 @@
+# navs
+alias 2u='cd $DOCS/Uni'
+alias 2sem='cd $DOCS/Uni/modules/Y1S1'
+
+export UNI=$DOCS'/Uni'
+export SEM_FOLDER=$UNI'/modules/Y1S1'
