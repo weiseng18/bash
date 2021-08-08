@@ -12,12 +12,13 @@ export REPOS='/media/asus/Data/repos'
 export DOCS='/media/asus/Data/Documents'
 export UNI=$DOCS'/Uni'
 
+export BASH_CONFIG=$REPOS'/config/bash'
 export SCRIPTS=$REPOS'/config/scripts'
 export DOTFILES=$REPOS'/config/dotfiles'
 
 # load scripts
-source $REPOS/config/bash/colors
-source $REPOS/config/bash/git
-source $REPOS/config/bash/nav
-source $REPOS/config/bash/misc
-source $REPOS/config/bash/monitor
+source $BASH_CONFIG/colors
+source $BASH_CONFIG/git
+source $BASH_CONFIG/nav
+source $BASH_CONFIG/misc
+source $BASH_CONFIG/monitor
