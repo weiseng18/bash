@@ -4,3 +4,11 @@ alias 2sem='cd $DOCS/Uni/modules/Y1S1'
 
 export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S1'
+
+
+# CS2030S
+checks=$UNI'/modules/Y1S1/CS2030S/checks'
+checkjar=$checks'/checkstyle-8.2-all.jar'
+checkxml=$checks'/cs2030_checks.xml'
+
+alias checkstyle="java -jar $checkjar -c $checkxml"
