@@ -14,6 +14,9 @@ function tab() {
   PS1=${ORIG}${TITLE}
 }
 
+# copy pwd into clipboard
+alias cpwd="pwd | xclip -selection clipboard"
+
 # MATLAB
 # patch to allow matlab GUI to work on Linux
 # source: https://www.mathworks.com/matlabcentral/answers/100622-why-does-matlab-start-with-a-blank-grey-window-when-using-a-compiz-or-beryl-window-manager
