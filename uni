@@ -5,6 +5,13 @@ alias 2sem='cd $DOCS/Uni/modules/Y1S1'
 export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S1'
 
+# MA2001
+
+# MATLAB
+# patch to allow matlab GUI to work on Linux
+# source: https://www.mathworks.com/matlabcentral/answers/100622-why-does-matlab-start-with-a-blank-grey-window-when-using-a-compiz-or-beryl-window-manager
+
+export _JAVA_AWT_WM_NONREPARENTING=1
 
 # CS2030S
 checks=$UNI'/modules/Y1S1/CS2030S/checks'
