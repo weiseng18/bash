@@ -20,15 +20,20 @@ function out {
 alias uxplay='cd $DOCS/iOS/screenshare/uxplay/'
 alias github='cd $DOCS/Programming/github'
 
-
-alias 2b='cd $REPOS/config/bash'
+# config
 alias 2c='cd $REPOS/config'
-alias 2d='cd $DOTFILES/'
-alias 2dd='cd $REPOS/notes/doubledegree'
+alias 2b='cd $REPOS/config/bash'
 alias 2dw='cd $REPOS/config/dwm'
-alias 2lb='cd $HOME/.local/bin'
-alias 2n='cd $REPOS/notes/me'
-alias 2p='cd $REPOS/projects'
-alias 2rp='cd $REPOS'
 alias 2sc='cd $REPOS/config/scripts'
+alias 2d='cd $DOTFILES/'
+
+alias 2lb='cd $HOME/.local/bin'
+
+# notes
+alias 2dd='cd $REPOS/notes/doubledegree'
+alias 2n='cd $REPOS/notes/me'
+
+# misc
+alias 2rp='cd $REPOS'
+alias 2p='cd $REPOS/projects'
 alias 2vc='cd $DOCS/NS/ePREP/vim/vimclass'
