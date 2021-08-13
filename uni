@@ -1,6 +1,8 @@
 export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S1'
 
+export NOTES_CONFIG=$REPOS'/notes/me/config'
+
 # navs
 alias 2dd='cd $REPOS/notes/doubledegree'
 alias 2n='cd $REPOS/notes/me'
