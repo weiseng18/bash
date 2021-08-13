@@ -1,10 +1,9 @@
 # navs
-alias 2u='cd $DOCS/Uni'
-
 export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S1'
 
 alias 2sem='cd $SEM_FOLDER'
+alias 2u='cd $DOCS/Uni'
 
 # MA2001
 
