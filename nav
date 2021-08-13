@@ -30,9 +30,6 @@ alias 2d='cd $DOTFILES/'
 alias 2lb='cd $HOME/.local/bin'
 
 # notes
-alias 2dd='cd $REPOS/notes/doubledegree'
-alias 2n='cd $REPOS/notes/me'
-
 # misc
 alias 2rp='cd $REPOS'
 alias 2p='cd $REPOS/projects'

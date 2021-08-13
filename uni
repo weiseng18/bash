@@ -1,6 +1,9 @@
-# navs
 export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S1'
+
+# navs
+alias 2dd='cd $REPOS/notes/doubledegree'
+alias 2n='cd $REPOS/notes/me'
 
 alias 2sem='cd $SEM_FOLDER'
 alias 2u='cd $DOCS/Uni'
