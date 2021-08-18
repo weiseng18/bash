@@ -5,7 +5,7 @@ export NOTES_CONFIG=$REPOS'/notes/me/config'
 
 # navs
 alias 2dd='cd $REPOS/notes/doubledegree'
-alias 2n='cd $REPOS/notes/me'
+alias 2n='cd $REPOS/notes/uni'
 
 alias 2sem='cd $SEM_FOLDER'
 alias 2u='cd $DOCS/Uni'
