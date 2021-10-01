@@ -19,6 +19,7 @@ export DOTFILES=$REPOS'/config/dotfiles'
 source $BASH_CONFIG/colors
 source $BASH_CONFIG/git
 source $BASH_CONFIG/nav
+source $BASH_CONFIG/navi
 source $BASH_CONFIG/misc
 source $BASH_CONFIG/monitor
 source $BASH_CONFIG/uni
