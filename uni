@@ -24,3 +24,9 @@ checkjar=$checks'/checkstyle-8.2-all.jar'
 checkxml=$checks'/cs2030_checks.xml'
 
 alias checkstyle="java -jar $checkjar -c $checkxml"
+
+# CS2040S
+junit_jar=$UNI'/modules/Y1S2/CS2040S/psets/junit-4.13.2.jar'
+hamcrest_jar=$UNI'/modules/Y1S2/CS2040S/psets/hamcrest-core-1.3.jar'
+alias jtest="javac -cp $junit_jar:."
+alias jrun="java -cp $junit_jar:$hamcrest_jar:. org.junit.runner.JUnitCore"
