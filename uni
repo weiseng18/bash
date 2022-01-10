@@ -1,5 +1,5 @@
 export UNI=$DOCS'/Uni'
-export SEM_FOLDER=$UNI'/modules/Y1S1'
+export SEM_FOLDER=$UNI'/modules/Y1S2'
 
 export NOTES_CONFIG=$REPOS'/notes/uni/config'
 
