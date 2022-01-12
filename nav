@@ -29,6 +29,8 @@ alias 2d='cd $DOTFILES/'
 
 alias 2lb='cd $HOME/.local/bin'
 
+alias 2w='cd $REPOS/misc/redesigned-engine.wiki'
+
 # notes
 # misc
 alias 2rp='cd $REPOS'
