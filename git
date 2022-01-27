@@ -1,11 +1,3 @@
-# custom git commit for faster commits
-# edit as necessary
-function gcm() {
-  # message is the prepend
-  message="ma2001: $@"
-  git commit -m "$message"
-}
-
 # aliases
 alias gaa="git add ."
 alias gcm="git commit -m"
@@ -15,6 +7,11 @@ alias gst="git st"
 alias gp="git push"
 
 alias gpatch="git apply --reject --whitespace=fix"
+
+function gl() {
+  lines=${1-10}
+  git log --oneline -n "$lines"
+}
 
 # aliases for multiple actions
 function ga() {
