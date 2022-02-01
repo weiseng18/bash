@@ -4,7 +4,8 @@ export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S2'
 
 export UNI_REPO=$REPOS'/notes/uni'
-export UNI_CONFIG=$NOTES_REPO'/config'
+export UNI_CONFIG=$UNI_REPO'/config'
+export NOTES_CONFIG=$UNI_REPO'/config'  # for backwards compatability
 
 # navs
 alias 2n='cd $UNI_REPO'
@@ -12,8 +13,8 @@ alias 2n='cd $UNI_REPO'
 alias 2sem='cd $SEM_FOLDER'
 alias 2u='cd $DOCS/Uni'
 
-# analog (2u)
-function gu {
+# analog (2n)
+function gn {
     cd "$(find $UNI_REPO -maxdepth 1 -mindepth 1 -type d | fzf)"
 }
 
