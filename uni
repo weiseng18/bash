@@ -1,14 +1,24 @@
+# ----------------------------------------------- navigation
+
 export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S2'
 
-export NOTES_CONFIG=$REPOS'/notes/uni/config'
+export UNI_REPO=$REPOS'/notes/uni'
+export UNI_CONFIG=$NOTES_REPO'/config'
 
 # navs
-alias 2dd='cd $REPOS/notes/doubledegree'
-alias 2n='cd $REPOS/notes/uni'
+alias 2n='cd $UNI_REPO'
 
 alias 2sem='cd $SEM_FOLDER'
 alias 2u='cd $DOCS/Uni'
+
+# analog (2u)
+function gu {
+    cd "$(find $UNI_REPO -maxdepth 1 -mindepth 1 -type d | fzf)"
+}
+
+
+# ------------------------------------ module_specific_stuff
 
 # MA2001
 
