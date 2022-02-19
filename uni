@@ -10,12 +10,19 @@ export NOTES_CONFIG=$UNI_REPO'/config'  # for backwards compatability
 # navs
 alias 2n='cd $UNI_REPO'
 
+alias 2cs='cd $REPOS/misc/nus-cheatsheets'
+
 alias 2sem='cd $SEM_FOLDER'
 alias 2u='cd $DOCS/Uni'
 
 # analog (2n)
 function gn {
-    cd "$(find $UNI_REPO -maxdepth 1 -mindepth 1 -type d | fzf)"
+    cd "$(find $UNI_REPO -mindepth 2 -not -path '*/.*' -type d | fzf)"
+}
+
+# analog (2u)
+function gu {
+    cd "$(find $SEM_FOLDER -mindepth 1 -not -path '*/.*' -type d | fzf)"
 }
 
 
