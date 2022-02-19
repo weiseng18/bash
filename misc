@@ -15,7 +15,8 @@ function tab() {
 }
 
 # my grep
-alias gt="grep -rin --include \*.tex"
+alias tg="grep -rin --include \*.tex"
+alias pg="pdfgrep -rin"
 
 # copy pwd into clipboard
 alias cpwd="pwd | xclip -selection clipboard"
