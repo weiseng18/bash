@@ -1,6 +1,6 @@
 # navigation aliases
 
-function out {
+function o {
   local count=$1
   # default to 1
   if [ -z $count ]; then
@@ -31,7 +31,6 @@ alias 2lb='cd $HOME/.local/bin'
 
 alias 2w='cd $REPOS/misc/redesigned-engine.wiki'
 
-# notes
 # misc
 alias 2rp='cd $REPOS'
 alias 2p='cd $REPOS/projects'
