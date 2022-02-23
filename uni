@@ -1,19 +1,19 @@
 # ----------------------------------------------- navigation
 
+# Folders containing lecture slides and misc stuff
 export UNI=$DOCS'/Uni'
 export SEM_FOLDER=$UNI'/modules/Y1S2'
+alias 2u='cd $DOCS/Uni'
+alias 2sem='cd $SEM_FOLDER'
 
+# Folders containing tutorial/lab working
 export UNI_REPO=$REPOS'/notes/uni'
 export UNI_CONFIG=$UNI_REPO'/config'
 export NOTES_CONFIG=$UNI_REPO'/config'  # for backwards compatability
-
-# navs
 alias 2n='cd $UNI_REPO'
 
+# navs
 alias 2cs='cd $REPOS/misc/nus-cheatsheets'
-
-alias 2sem='cd $SEM_FOLDER'
-alias 2u='cd $DOCS/Uni'
 
 # analog (2n)
 function gn {
