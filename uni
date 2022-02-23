@@ -2,30 +2,39 @@
 
 # Folders containing lecture slides and misc stuff
 export UNI=$DOCS'/Uni'
-export SEM_FOLDER=$UNI'/modules/Y1S2'
-
 alias 2u='cd $DOCS/Uni'
-alias 2sem='cd $SEM_FOLDER'
+
+export SEM_FOLDER=$UNI'/modules/Y1S2'
+alias 2s='cd $SEM_FOLDER'
 
 # Folders containing tutorial/lab working
 export UNI_REPO=$REPOS'/notes/uni'
+alias 2r='cd $UNI_REPO'
+
 export SEM_REPO=$UNI_REPO'/Y1S2'
+alias 2n='cd $SEM_REPO'
 
 export UNI_CONFIG=$UNI_REPO'/config'
 export NOTES_CONFIG=$UNI_REPO'/config'  # for backwards compatability
-
-alias 2n='cd $SEM_REPO'
 
 # navs
 alias 2cs='cd $REPOS/misc/nus-cheatsheets'
 
 # analog (2n)
+# Tutorials for current sem
 function gn {
     cd "$(find $SEM_REPO -mindepth 2 -not -path '*/.*' -type d | fzf)"
 }
 
-# analog (2u)
-function gu {
+# analog (2r)
+# Tutorials for all sems
+function gr {
+    cd "$(find $UNI_REPO -mindepth 3 -not -path '*/.*' -type d | fzf)"
+}
+
+# analog (2s)
+# Lecture slides for current sem
+function gs {
     cd "$(find $SEM_FOLDER -mindepth 1 -not -path '*/.*' -type d | fzf)"
 }
 
